@@ -1,0 +1,28 @@
+footer{
+    display: block;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    width: 100vw;
+    color:brown;
+}
+
+nav a{
+    text-decoration: none;
+    color: brown;
+    padding: 10px;
+}
+nav a:hover{
+    color: bisque;
+    text-shadow: 1px 1px 1px brown;
+    transition: ease-in-out 300ms;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+form{
+    padding: 0 200px;
+}
