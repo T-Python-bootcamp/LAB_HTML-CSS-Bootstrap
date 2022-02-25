@@ -1,0 +1,35 @@
+#welcome-container {
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+#welcome-container a{
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+nav {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  /* border: 1px solid pink; */
+}
+
+.nav-list li a {
+  color: rgb(209, 203, 203);
+  font-weight: bold;
+}
+
+.nav-list li a:hover {
+  color: rgb(158, 155, 155);
+}
